@@ -48,7 +48,7 @@ timerBtn.addEventListener('click', () => {
     tmrMin = parseInt(time);
     while (tmrMin > 60) {
         tmrHr = tmrHr + 1;
-        tmrMin = tmrMin - 60;r
+        tmrMin = tmrMin - 60;
     }
     // if (tmrMin > 60) {
     //     tmrHr = tmrHr + 1;
